@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="blog-index">
+  {% assign index = true %}
+  {% for post in paginator.posts %}
+  {% assign content = post.content %}
+    <article>
+      {% include article.html %}
+    </article>
+  {% endfor %}
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
+    {% endif %}
+    <a href="/blog/archives">Blog Archives</a>
+    {% if paginator.previous_page %}
+    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
+    {% endif %}
+  </div>
+</div>
+<aside class="sidebar">
+  <h3 class="no_bullet">About Me</h3>
+  <img alt="Headshot" id="headshot" src="/images/my-profile.jpg">
+  <p class="about-me-description">Doungdara Keut, professional <b>Freelance Web Developer</b> and <b>Web Designer</b> building <b>Enterprise-Level Applications</b> as well as websites for the <b>Small Business Owner</b>.</p>
+  {% if site.blog_index_asides.size %}
+    {% include_array blog_index_asides %}
+  {% else %}
+    {% include_array default_asides %}
+  {% endif %}
+</aside>

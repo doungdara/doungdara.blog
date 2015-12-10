@@ -1,0 +1,20 @@
+  #headshot {
+    float: left;
+    padding: 1px;
+    border: 1px solid gray;
+    margin-right: 15px;
+    width: 75px;
+    height: 75px;
+  }
+  img#headshot {
+    vertical-align: middle;
+    max-width: 75px;
+    max-height: 75px;
+    border: 0;
+  }
+
+  .about-me-description {
+    font-size: 60%;    
+    line-height: 20px;
+    margin-top: -4px;
+  }
