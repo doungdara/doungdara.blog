@@ -17,7 +17,7 @@ body, h1,h2,h3,h4,h5,h6,p blockquote {
 .about-me-wrapper {
   font-size: 12px;
   blockquote {
-    margin-bottom: 5px !important;
+    margin-bottom: 15px !important;
     margin-left: 30px !important;
   }
 
@@ -42,6 +42,11 @@ body, h1,h2,h3,h4,h5,h6,p blockquote {
     border-radius: 5px;
     padding: 15px 15px 15px 55px;
     min-height: 36px;
+  }
+
+  .about-me-skills {
+    margin-top: 15px;
+    margin-bottom: 0;
   }
 }
 
