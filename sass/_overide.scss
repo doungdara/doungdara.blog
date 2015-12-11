@@ -1,7 +1,6 @@
-* {
+body, h1,h2,h3,h4,h5,h6,p blockquote {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
-
 
 
 // header
@@ -11,3 +10,39 @@
   color: #2175AD;
   margin-left: 3px;
 }
+
+
+
+// about me Page
+.about-me-wrapper {
+  font-size: 12px;
+  blockquote {
+    margin-bottom: 5px !important;
+    margin-left: 30px !important;
+  }
+
+  p {
+    margin: 0 !important; 
+  }
+
+  .about-me-highlight {
+    background-color: transparent\9;
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ie_hex(255, 240, 0, 0.23),endColorstr=#ie_hex(255, 240, 0, 0.23));
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ie_hex(255, 240, 0, 0.23),endColorstr=#ie_hex(255, 240, 0, 0.23));
+    zoom: 1;
+    background-color: rgba(255,240,0,0.23);
+    background-image: url(/images/star_trans_30.png);
+    background-position: left 10px;
+    background-repeat: no-repeat;
+    font-size: 125%;
+    border-style: none;
+    border: 0;
+    border-width: 0;
+    color: #444;
+    border-radius: 5px;
+    padding: 15px 15px 15px 55px;
+    min-height: 36px;
+  }
+}
+
+

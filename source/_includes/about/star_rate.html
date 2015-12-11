@@ -1,0 +1,23 @@
+{% if starts == 5 %}
+  {% for start in (1..starts) %}
+    <i class="fa fa-star" style="color: #FFD700"></i>
+  {% endfor %}
+{% elsif starts == 4 %}
+    {% for start in (1..starts) %}
+    <i class="fa fa-star" style="color: #B5651C"></i>
+  {% endfor %}
+{% elsif starts == 3 %}
+    {% for start in (1..starts) %}
+    <i class="fa fa-star" style="color: #987654"></i>
+  {% endfor %}
+{% elsif starts == 2 %}
+    {% for start in (1..starts) %}
+    <i class="fa fa-star" style="color: #C0CAD6"></i>
+  {% endfor %}
+{% elsif starts == 1 %}
+    {% for start in (1..starts) %}
+    <i class="fa fa-star" style="color: #D2D2D2"></i>
+  {% endfor %}
+
+
+{% endif %}

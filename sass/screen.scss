@@ -1,4 +1,5 @@
 @import "compass";
+@import "bootstrap";
 @include global-reset;
 @include reset-html5;
 
@@ -10,3 +11,4 @@
 @import "custom/styles";
 @import "about-me";
 @import "overide";
+@import "font-awesome";
